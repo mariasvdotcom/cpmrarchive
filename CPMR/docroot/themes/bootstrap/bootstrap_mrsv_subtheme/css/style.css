@@ -1,0 +1,423 @@
+#sat_share_top{
+	padding-top: 50px;
+}
+
+#topbanner {
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: maroon;
+	opacity: .9;
+	margin: 0 auto;
+	margin-bottom: -20px;
+
+}
+
+
+.nav-pills{
+	font-size: 16px;
+	display: inline;
+	color: maroon !important;
+}
+
+.navbar-nav a:link{
+	color: maroon !important;
+	font-size: 16px;
+}
+
+.nav-pills a:link {
+	font-size: 16px;
+	display: inline;
+	color: maroon !important;
+}
+
+
+
+.navbuttop{
+	padding-top: 10px;
+	margin-bottom:-10px;
+}
+
+
+.grandcircusstyle{
+	width: 100%;
+	background-color: white;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.navbar-default{
+	margin-top: -15px !important;
+	background-color: white !important;
+	border-bottom: 11px solid #8B1C20 !important;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+#footerbanner {
+
+	background-color: maroon;
+	opacity: .9;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background color:maroon;
+
+}
+.nav>li {
+position: relative;
+display: block;
+float: left;
+font-size: 16px;
+display: inline;
+color: maroon !important;
+}
+
+.nav {
+	padding-top: 35px;
+	  float: right;
+	  display: inline-block;
+	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #E1511D;
+}
+
+/* creates an orange background for nav links*/
+.leaf a:hover{ 
+  background-color: #E1511D !important; 
+color: white;
+}
+
+
+/* moves public links to the right and log in to the left*/
+.leaf{
+float:right !important; 
+}
+
+ul.secondary{
+float:left; 
+}
+
+
+
+.bio_image{
+
+}
+
+
+.bio_title{
+	text-transform: uppercase;
+	font-size: 28px;
+	letter-spacing: 3px;
+	color: black; 
+	text-decoration: underline;
+}
+
+.bioquote{
+	width: 80%; 
+	left: 0; 
+	text-align: left; 
+	color:#E1511D; 
+	font-size: 16px;
+}
+
+.view-id-biographies_view{
+	padding-top: 39px; 	
+	padding-left:12px;
+}
+
+.view-id-events_view{
+	padding-top: 39px; 	
+	padding-left:12px;
+}
+
+aside.col-sm-3{
+   position: relative;
+/*  border-left-style: solid;
+border-left-width: 8px;
+border-left-color: #FFCC33;*/
+padding-top: 16px; 
+margin-top:-16px;	
+min-width: 200px;
+background-color: #E0E0E0; 
+box-shadow: -0.5px 0px 10px #888888;
+ 
+}
+
+/*
+aside.col-sm-3:before{ 
+    content: " ";
+  position: absolute;
+  z-index: -2;
+    top:0px;
+    bottom:0px;
+  left: 0px;
+  right: 0px;
+  border-left-style: solid;
+border-left-width: 8px;
+border-left-color: #E1511D;
+} */
+
+.panels-flexible-row-4-main-row-inside{
+padding-bottom: 25px;
+padding-top: 10px;
+}
+
+#record-title{
+color:#FFCC33; 
+}
+
+#circle-overlay{
+position:absolute; 
+z-index:auto; 
+top: 0px; 
+height:80%;  
+} 
+
+div#circle-overlay img{
+height:220px; 
+width:245px; 
+margin-left:-4%;
+}
+
+.circle_page img{
+height:180px; 
+width:195px; 
+margin-left:-213px;
+}
+
+#bio_image{
+
+}
+
+.panels-flexible-region-11-left_pane-inside{ 
+position:relative;
+}
+
+#page_body{
+    width: 90%; 
+}
+
+.inside.panels-flexible-row-inside.panels-flexible-row-11-main-row-inside.panels-flexible-row-inside-first.clearfix{
+	margin-top: 50px;
+	margin-bottom:25px;
+
+}
+
+
+/* "Digital Memory Exchange" location*/
+.pic{
+display:inline; 
+}
+
+.picture{
+width: 30vw; 
+max-width: 500px;
+min-width: 275px; 
+}
+
+img.picture{
+float:left;
+}
+
+.navbuttop navbar-collapse collapse{
+display:inline; 
+}
+
+nav{
+display:inline-block; 
+}
+
+@media screen and (max-width: 700px) {
+    .combined_image {
+display:block;
+ margin-left: 43%;
+    }
+    
+    #bio_image{
+margin-left: 47%;
+}
+    
+    .bio_title{
+    margin-top: 250px;
+    }
+    
+    #bio_info{
+    width: 130%; 
+    position:relative;  
+    display:block;
+    margin-left: -43%;
+    }
+    
+    .col-sm-9{
+    overflow-x: hidden;
+    }
+    
+    header{
+    overflow-x: hidden; 
+    }
+   
+   .views-field views-field-field-record-image{
+    position: absolute; 
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   top:0; 
+   }
+   
+  
+   
+   /* "breaks views grid layout for responsive use*/
+   div.view-biographies-view table tr > *{
+        display: block;
+    }
+    div.view-biographies-view table tr {
+        display: table-cell;
+        padding-right: 15px;
+    }
+    
+    aside.col-sm-3{
+    overflow-x:scroll; 
+    z-index:3; 
+    margin-top: 40px; 
+    }
+  
+  .main-container.container{
+  overflow-x: hidden;
+  }
+  
+  .pic{
+  display:block;
+   margin-left: -20%; 
+  }
+  
+  a.logo.navbar-btn.pull-left{
+  margin-left: -25%;
+  }
+  
+  .nav-pills{
+  display:block; 
+  }
+  
+  .nav-pills a:link {
+  display:block;
+  }
+
+.nav>li {
+display:block;
+}
+
+td.views-field.circle_page{
+display:none;
+}
+  
+}
+
+
+
+.timeline{
+ border-top-style: solid;
+border-top-color: #E1511D; 
+border-top-width: 4px;
+}
+
+
+
+.bio_title_page{
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1.75px; 
+	text-decoration: underline;
+	display:block;
+	 border-style: none;
+	 margin-top: -1px;
+}
+
+
+.bioquote_page{
+	left: 0; 
+	text-align: left; 
+	color:black; 
+	display:block;
+	border-top: 0px !important; 
+	margin-top:-15px; 
+}
+
+tr.biopage_row{
+padding-top:25px; 
+padding-bottom:25px; 
+}
+
+.table>tbody>tr>td{ 
+padding:15px; 
+line-height: 1.42857 
+vertical-align: top; 
+border-top: 3px solid #E1511D; 
+} 
+
+td.views-field.views-field-body{
+background: -webkit-linear-gradient(top, #E0E0E0 , #F9F9F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #E0E0E0 , #F9F9F9); /* Standard syntax (must be last) */ 
+padding-bottom: 10px;
+}
+
+
+.region-header{
+  padding-bottom: 35px;
+}
+
+.btn-primary{
+  margin-left: 110px;
+}
+
+.picture{
+  top: 35px;
+  left: -20px;
+  position: relative;
+}
+
+/* Landing page styling*/ 
+
+.thumbnail .caption{
+text-align: center;
+}
+
+a.btn.btn-primary{
+  margin: 0 auto;
+}
+
+button.navbar-toggle{
+background-color: #97310e;
+}
+
+.thumbnail{
+border:3px solid #FFCC33;
+background:-webkit-linear-gradient(top, #FFCC33 , #fff4d6)
+background: -o-linear-gradient(bottom, #FFCC33 , #fff4d6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #FFCC33 , #fff4d6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #FFCC33 , #fff4d6); /* Standard syntax (must be last) */ 
+}
+
+@media screen and (max-width: 575px) {
+
+img.picture{
+left:10px; 
+top:-1px; 
+}
+}
+
+ /* Footer*/
+ .region.region-footer{
+ background-color: maroon;
+ }
+ 
+ section#block-menu-menu-footer-menu{
+ margin-top: -35px; 
+ margin-right:25px;
+   margin-bottom: 35px;
+ }

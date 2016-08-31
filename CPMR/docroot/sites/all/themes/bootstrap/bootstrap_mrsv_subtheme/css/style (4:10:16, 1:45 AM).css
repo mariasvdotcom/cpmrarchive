@@ -1,0 +1,794 @@
+@font-face {
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bevan'), url(http://fonts.gstatic.com/s/bevan/v7/Fc36VMDxmk7bwCF8XDJdKaCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}   
+
+body{
+font-family: "Lucida Sans Unicode", "Lucida Grande", Lucida, sans-serif; 
+font-size: 15px; 
+line-height: 1.428571429; 
+}
+
+/* header*/
+
+section#block-search-form{
+	width:160px;
+	position:absolute;
+	top:0; 
+	right:12px; 
+	visibility: visible;
+}
+
+#sat_share_top{
+	padding-top: 50px;
+}
+
+#topbanner {
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: maroon;
+	opacity: .9;
+	margin: 0 auto;
+	margin-bottom: -20px;
+}
+
+
+.nav-pills{
+	font-size: 16px;
+	display: inline;
+	color: maroon !important;
+}
+
+.navbar-nav a:link{
+	color: maroon !important;
+	font-size: 16px;
+}
+
+.nav-pills a:link {
+	font-size: 16px;
+	display: inline;
+	color: maroon !important;
+}
+
+
+.navbuttop{
+	padding-top: 10px;
+	margin-bottom:-10px;
+}
+
+
+.grandcircusstyle{
+	width: 100%;
+	background-color: white;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.navbar-default{
+	margin-top: -15px !important;
+	background-color: white !important;
+	border-bottom: 11px solid #8B1C20 !important;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+
+.nav>li {
+position: relative;
+display: block;
+float: left;
+font-size: 16px;
+display: inline;
+color: maroon !important;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	color: #E1511D;
+}
+
+
+
+/* creates an orange background for nav links*/
+.leaf a:hover{ 
+  background-color: #E1511D !important; 
+color: white;
+}
+
+ul.menu.nav{
+	position:absolute;
+	margin-top:-11px;
+	right:12px; 
+}
+
+.navbuttop.navbar-collapse.in{
+display:inline-block;
+}
+
+
+
+/* moves public links to the right and log in to the left*/
+.leaf{
+float:right !important; 
+}
+
+ul.secondary{
+float:right; 
+}
+
+
+a.logo.navbar-btn.pull-left {
+float:left;
+}
+
+.pic.memorycollect {
+ /* overflow:hidden; */
+ margin-top: 35px;
+  }
+  
+@media screen and (max-width: 1275px) {
+.pic.memorycollect {
+ margin-top: 19px;
+  }
+  
+  ul.menu.nav{
+	margin-top:0px;	 
+}
+
+@media screen and (max-width: 904px) {
+.pic.memorycollect {
+ display:none !important;
+  }
+  
+  img.picture{
+  display:none !important;
+  }
+  ul.menu.nav{
+	margin-top:19px;	 
+}
+  }
+
+section#block-menu-menu-footer-menu{
+ margin-top: 30px !important;
+ }
+}
+
+@media screen and (max-width: 700px) {
+a.logo.navbar-btn.pull-left{ 
+    float: none;
+    margin-right:0;
+    width:auto;  
+  }
+  
+  ul.menu.nav{
+	position:relative !important;
+	display:inline-block !important;
+	padding-top:0px; 
+}
+}
+
+@media screen and (max-width: 460px)
+and (orientation: portrait) {
+   a.logo.navbar-btn.pull-left{ 
+    float: none;
+    width:auto;  
+  } 
+  
+  .grandcircusstyle{
+  padding-left: 0em;
+  }
+  
+}
+
+
+/* Portrait */
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .pic.memorycollect {
+  display: inline-block;
+  }
+  
+  a.logo.navbar-btn.pull-left{
+  margin-left: -25%; 
+  }
+  
+}*/
+
+
+
+
+/* header*/
+
+
+
+section#block-md-slider-main-slider{
+	box-shadow: 2px 2px 2px 2px #D3D3D3;
+}
+
+
+
+.bio_image{
+
+}
+
+
+.bio_title{
+    font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+	text-transform: uppercase;
+	font-size: 28px;
+	letter-spacing: 3px;
+	color: black; 
+	text-decoration: underline;
+}
+
+.bioquote{
+	width: 80%; 
+	left: 0; 
+	text-align: left; 
+	color:#E1511D; 
+	font-size: 16px;
+}
+
+.view-id-biographies_view{
+	padding-top: 39px; 	
+	padding-left:12px;
+}
+
+.view-id-events_view{
+	padding-top: 39px; 	
+	padding-left:12px;
+}
+
+aside.col-sm-3{
+   position: relative;
+/*  border-left-style: solid;
+border-left-width: 8px;
+border-left-color: #FFCC33;*/
+padding-top: 16px; 
+margin-top:-16px;	
+min-width: 200px;
+background-color: #E0E0E0; 
+box-shadow: -0.5px 0px 10px #888888;
+ 
+}
+
+/*
+aside.col-sm-3:before{ 
+    content: " ";
+  position: absolute;
+  z-index: -2;
+    top:0px;
+    bottom:0px;
+  left: 0px;
+  right: 0px;
+  border-left-style: solid;
+border-left-width: 8px;
+border-left-color: #E1511D;
+} */
+
+.panels-flexible-row-4-main-row-inside{
+padding-bottom: 25px;
+padding-top: 10px;
+}
+
+#record-title{
+color:#FFCC33; 
+}
+
+#circle-overlay{
+position:absolute; 
+z-index:auto; 
+top: 0px; 
+height:80%;  
+} 
+
+div#circle-overlay img{
+height:220px; 
+width:245px; 
+margin-left:-4%;
+}
+
+.circle_page img{
+height:180px; 
+width:195px; 
+margin-left:-213px;
+}
+
+#bio_image{
+
+}
+
+.panels-flexible-region-11-left_pane-inside{ 
+position:relative;
+}
+
+#page_body{
+    width: 90%; 
+}
+
+.inside.panels-flexible-row-inside.panels-flexible-row-11-main-row-inside.panels-flexible-row-inside-first.clearfix{
+	margin-top: 50px;
+	margin-bottom:25px;
+
+}
+
+
+/* "Digital Memory Exchange" location*/
+
+
+.picture{
+width: 375px; 
+}
+
+img.picture{
+float:left;
+}
+
+.navbuttop navbar-collapse collapse{
+display:inline; 
+}
+
+nav{
+display:inline-block; 
+}
+
+@media screen and (max-width: 700px) {
+    .combined_image {
+display:block;
+ margin-left: 43%;
+    }
+    
+    #bio_image{
+margin-left: 47% !important;
+}
+    
+    .bio_title{
+    margin-top: 250px;
+    }
+    
+    #bio_info{
+    width: 130%; 
+    position:relative;  
+    display:block;
+    margin-left: -43%;
+    }
+    
+    .col-sm-9{
+    overflow-x: hidden;
+    }
+    
+    header{
+    overflow-x: hidden; 
+    }
+   
+   .views-field views-field-field-record-image{
+    position: absolute; 
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   top:0; 
+   }
+   
+  
+  
+
+  
+   
+   /* "breaks views grid layout for responsive use*/
+   div.view-biographies-view table tr > *{
+        display: block;
+    }
+    div.view-biographies-view table tr {
+        display: table-cell;
+        padding-right: 15px;
+    }
+    
+    aside.col-sm-3{
+    overflow-x:scroll; 
+    z-index:3; 
+    margin-top: 40px; 
+    }
+  
+  .main-container.container{
+  overflow-x: hidden;
+  }
+  
+
+
+td.views-field.circle_page{
+display:none;
+}
+  
+}
+
+
+
+.timeline{
+ border-top-style: solid;
+border-top-color: #E1511D; 
+border-top-width: 4px;
+}
+
+
+
+.bio_title_page{
+font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1.75px; 
+	text-decoration: underline;
+	display:block;
+	 border-style: none;
+	 margin-top: -1px;
+}
+
+
+.bioquote_page{
+	left: 0; 
+	text-align: left; 
+	color:black; 
+	display:block;
+	border-top: 0px !important; 
+	margin-top:-15px; 
+}
+
+tr.biopage_row{
+padding-top:25px; 
+padding-bottom:25px; 
+}
+
+.table>tbody>tr>td{ 
+padding:15px; 
+line-height: 1.42857 
+vertical-align: top; 
+border-top: 3px solid #E1511D; 
+} 
+
+td.views-field.views-field-body{
+background: -webkit-linear-gradient(top, #E0E0E0 , #F9F9F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #E0E0E0 , #F9F9F9); /* Standard syntax (must be last) */ 
+padding-bottom: 10px;
+}
+
+
+td.views-field.views-field-body-1{
+background: -webkit-linear-gradient(top, #E0E0E0 , #F9F9F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #E0E0E0 , #F9F9F9); /* Standard syntax (must be last) */ 
+padding-bottom: 10px;
+
+}
+
+th.views-field.views-field-title{
+width:12vw;
+}
+
+th.views-field.views-field-field-location{
+width:12vw;
+background-color: #E1511D;
+color: white;
+text-align: center;
+}
+
+td.views-field.views-field-field-date-and-time{
+border-left: solid #E1511D 1px;
+}
+
+td.views-field.views-field-field-location{
+border-left: solid #E1511D 1px;
+}
+
+th.views-field.views-field-field-date-and-time{
+width:12vw;
+background-color: #E1511D;
+color: white;
+border-right: 2px solid white;
+text-align: center;
+}
+
+.region-header{
+  padding-bottom: 35px;
+}
+
+.btn-primary{
+  margin-left: 10px;
+}
+
+
+/* Landing page styling*/ 
+
+.thumbnail .caption{
+text-align: center;
+}
+
+a.btn.btn-primary{
+  margin: 0 auto;
+}
+
+button.navbar-toggle{
+background-color: #97310e;
+}
+
+.thumbnail{
+border:3px solid #FFCC33;
+padding-top:20px;
+padding-bottom:8px;
+background:-webkit-linear-gradient(top, #FFCC33 , #fff4d6)
+background: -o-linear-gradient(bottom, #FFCC33 , #fff4d6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #FFCC33 , #fff4d6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #FFCC33 , #fff4d6); /* Standard syntax (must be last) */ 
+margin-bottom:20px;
+}
+
+/*@media screen and (max-width: 1010px) {
+
+.picture{
+  top: 35px;
+  left: -20px;
+  position: relative;
+}
+}*/
+
+ /* Footer*/
+ .region.region-footer{
+ background-color: maroon;
+ }
+ 
+#block-block-7 a{
+color:white;
+}
+
+#block-block-7 a:hover{
+color:#dd4814;
+}
+ 
+ section#block-menu-menu-footer-menu{
+ margin-top: 44px; 
+ margin-right:25px;
+   margin-bottom: 15px;
+   
+ }
+ 
+#footerbanner li.leaf{
+ margin-top:-30px;
+ }
+ 
+ #footerbanner {
+
+	background-color: maroon;
+	width:100%;
+	height:75px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background color:maroon;
+}
+
+section#block-block-7{
+width:60%; 
+margin: 0 auto; 
+margin-top:60px;
+font-size:12px;
+color:#fff4d6;
+}
+
+section#block-block-7 a span:hover{
+color: orange;
+}
+
+@media screen and (max-width: 700px) {
+section#block-menu-menu-footer-menu{
+ display:none;
+   
+ }
+}
+
+
+
+/* colors on timeline links*/
+
+div#flexslider-1 ul li:nth-child(1) a {  
+  color: #FF6633 !important;
+  font-family: 'Bevan';
+  line-height: 180%; 
+  letter-spacing: 1.1px;
+}
+
+div#flexslider-1 ul li:nth-child(2) a {  
+  color: maroon !important;
+  font-family: 'Bevan';
+    line-height: 180%; 
+  letter-spacing: 1.1px;
+}
+
+div#flexslider-1 ul li:nth-child(3) a {  
+  color: #585858 !important;
+  font-family: 'Bevan';
+    line-height: 180%; 
+  letter-spacing: 1.1px;
+}
+
+div#flexslider-1 ul li:nth-child(4) a {  
+  color: #E5B72D !important;
+  font-family: 'Bevan';
+    line-height: 180%; 
+  letter-spacing: 1.1px;
+}
+
+div#flexslider-1 ul li:nth-child(5) a {  
+  color: #503F67 !important;
+  font-family: 'Bevan' !important;
+    line-height: 180%; 
+  letter-spacing: 1.1px;
+}
+
+#bio_image{
+margin-left:6px;
+}
+/* */ 
+
+
+
+/* control collapse toggle nav  */ 
+@media (max-width: 904px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* toggle nav  */ 
+
+
+
+
+/* recently added  */ 
+
+.view-id-clone_of_event_page_view img{
+vertical-align: middle; 
+margin: 0 auto;
+width:100%; 
+min-height:19vw; 
+height:auto;
+z-index:3 !important;
+position:relative;
+}
+
+
+.view-id-clone_of_event_page_view img:hover{
+vertical-align: middle; 
+margin: 0 auto;
+width:100%; 
+min-height:19vw; 
+height:auto;
+opacity:0.2;
+z-index:1 !important;
+position:relative;
+}
+
+.view-id-clone_of_event_page_view .bio_title_page a{
+display:block; 
+margin-top: 8vw !important;
+color: white !important;
+opacity:1 !important;
+z-index:2 !important;
+position:relative;
+text-transform: initial; 
+}
+
+
+.view-id-clone_of_event_page_view .bio_title_page{
+letter-spacing: 1.75px; 
+display:block; 
+margin-top:-19vw;
+text-align:center;
+vertical-align:middle;
+}
+
+
+.view-id-clone_of_event_page_view .field-content{
+height: 19vw; 
+overflow-y:hidden; 
+width:19vw;
+background-color: maroon ;
+text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+ 
+     div.view-clone-of-event-page-view table tr > *{
+        display: block;
+    }
+    div.view-clone-of-event-page-view table tr {
+        display: table-cell;
+    }
+    
+
+.view-id-clone_of_event_page_view img{
+vertical-align: middle; 
+margin: 0 auto;
+width:100%; 
+min-height:30vw; 
+height:auto;
+opacity:0.35;
+z-index:1 !important;
+position:relative;
+}
+
+.view-id-clone_of_event_page_view .bio_title_page a{
+display:block; 
+color: white !important;
+opacity:1 !important;
+z-index:2 !important;
+position:relative;
+text-transform: initial; 
+width:25vw;
+margin-left: auto;
+margin-right: auto;
+font-size: 10px;
+}
+
+
+.view-id-clone_of_event_page_view .bio_title_page{
+letter-spacing: 1.75px; 
+display:block; 
+margin-top:-30vw;
+text-align:center;
+vertical-align:middle;
+}
+
+
+.view-id-clone_of_event_page_view .field-content{
+height: 30vw; 
+overflow-y:hidden; 
+width:30vw;
+background-color: maroon ;
+text-decoration: none;
+}
+
+    
+    
+}
+
+/* recently added  */ 
